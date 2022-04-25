@@ -4,7 +4,7 @@
 #
 Name     : pypi-netdisco
 Version  : 3.0.0
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/65/ca/f9263e384128a973595dda4022c96cb89afab8a9a83435bc955ec6f23358/netdisco-3.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/65/ca/f9263e384128a973595dda4022c96cb89afab8a9a83435bc955ec6f23358/netdisco-3.0.0.tar.gz
 Summary  : Discover devices on your local network
@@ -14,9 +14,6 @@ Requires: pypi-netdisco-license = %{version}-%{release}
 Requires: pypi-netdisco-python = %{version}-%{release}
 Requires: pypi-netdisco-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: netdisco
-Provides: netdisco-python
-Provides: netdisco-python3
 BuildRequires : pypi(requests)
 BuildRequires : pypi(zeroconf)
 
@@ -61,7 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641458883
+export SOURCE_DATE_EPOCH=1650928954
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
